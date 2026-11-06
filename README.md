@@ -161,8 +161,32 @@ For each circuit, record:
 - Functional equivalence before and after simplification
 
 ## 7. Expected Results (drop the screenshots of each equations circuit )
+F1 = (!A & B & C) | (A & B & !D) | (!B & C & D) | (A & !C & D) Shown with inputs A=0, B=0, C=1, D=1  ->  F1 = 1
+
+F2 = (A | !B | C) & (!A | B | D) & (B | !C | !D) Shown with inputs A=0, B=0, C=0, D=0  ->  F2 = 1
+
+F3 = !( ((!(A | B)) | (C & D)) & (A | (!(B | C))) ) Shown with inputs A=0, B=0, C=1, D=0  ->  F3 = 1
+
+F4 = ((A XOR B) & (C XNOR D)) | (!A & B & (C XOR D)) Shown with inputs A=0, B=1, C=0, D=0  ->  F4 = 1
+
+F5 = (A & B & !C) | (!A & D & E) | (B & C & !E) | (!B & C & D) Shown with inputs A=0, B=0, C=0, D=1, E=1  ->  F5 = 1
+
+F6 = ((A | B) & !(C | D)) | ((C XOR E) & (D | G)) | (!A & B & E) Shown with inputs A=0, B=0, C=0, D=0, E=1, G=1  ->  F6 = 1
+
+F7 = (!(A & B) & !(C | D)) | (!(A | C) & B & D) Shown with inputs A=0, B=0, C=0, D=0  ->  F7 = 1
+
+F8 = ((A XOR B) & (C XNOR D)) | (!(A | B) & C & E) | (A & B & !(D | F)) Shown with inputs A=0, B=0, C=1, D=0, E=1, F=0  ->  F8 = 1
 
 
+Screenshorts:
+<img width="2082" height="1149" alt="EX1" src="https://github.com/user-attachments/assets/745fba2a-863c-44ab-8b5a-1c7299f6981b" />
+<img width="2152" height="960" alt="EX2" src="https://github.com/user-attachments/assets/9de8c0e0-f64f-464c-84bb-542c74806062" />
+<img width="1417" height="652" alt="EX3" src="https://github.com/user-attachments/assets/393e58df-a787-419f-a23f-eeee199c7389" />
+<img width="1047" height="530" alt="EX4" src="https://github.com/user-attachments/assets/f2e9fa29-50d4-4d7c-9c3a-b816cbffcad2" />
+<img width="1326" height="650" alt="EX5" src="https://github.com/user-attachments/assets/24d8df00-dc42-402e-a638-0a3aa17ce1fc" />
+<img width="1153" height="625" alt="EX6" src="https://github.com/user-attachments/assets/bc7e00fd-76ab-46b9-a220-2d41eb799e79" />
+<img width="1056" height="582" alt="EX7" src="https://github.com/user-attachments/assets/dbd4c153-4d16-4f5e-8cc9-8fd755695559" />
+<img width="1302" height="652" alt="EX8" src="https://github.com/user-attachments/assets/64cd36a6-1830-48ed-a88a-e5f85fcec433" />
 
 
  
