@@ -1,5 +1,8 @@
 # EXPERIMENT-01: BUILDING LOGICAL CIRCUITS
-
+DATE:11/17/2026
+NAME: Himank Bhandari
+ROLL NUMBER: RA2511030010355
+DEPARTMENT: NWC
 ## 1. Aim
 
 To design, implement, simplify, and verify combinational logic circuits using Boolean algebra and digital logic gates.
